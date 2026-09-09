@@ -27,13 +27,13 @@ const publications: Publication[] = [
     venue: '',
   },
   {
-    type: 'journal', year: '2026', status: 'Published online',
+    type: 'journal', year: '2026',
     title: 'From Words to Components: Mapping Linguistic Features in Source-Based Writing',
     authors: 'Andrew H. Potter, Scott A. Crossley, Püren Öncel, Laura A. Allen, Xingchen Xu, Renu Balyan, Tracy Arner, Rod D. Roscoe & Danielle S. McNamara',
     venue: 'Assessing Writing, 70, 101108', href: 'https://doi.org/10.1016/j.asw.2026.101108',
   },
   {
-    type: 'journal', year: '2026', status: 'Published',
+    type: 'journal', year: '2026',
     title: 'Examining College Student Mental Health in Engineering and Computer Science Education: Relevant Factors, Relative Importance, and Demographic Differences',
     authors: 'Xingchen Xu & Li Tan',
     venue: 'European Journal of Engineering Education', href: 'https://doi.org/10.1080/03043797.2026.2671265',
@@ -45,13 +45,13 @@ const publications: Publication[] = [
     venue: 'ASEE Annual Conference & Exposition', href: 'https://peer.asee.org/61256',
   },
   {
-    type: 'journal', year: '2025', status: 'Published',
+    type: 'journal', year: '2025',
     title: 'Exploring the Interrelation of Family, Society, and Cultural Influence on International Chinese and Indian STEM Doctoral Students in the U.S.',
     authors: 'Xingchen Xu',
     venue: 'Journal of International Students, 15(10), 1–26', href: 'https://doi.org/10.32674/xjjjeq83',
   },
   {
-    type: 'journal', year: '2025', status: 'Published',
+    type: 'journal', year: '2025',
     title: 'The Advantage of Regression and Covariate Utilisation over ANOVA in Engineering Education Research',
     authors: 'Li Tan, Siqing Wei, Xingchen Xu & Jason Morphew',
     venue: 'European Journal of Engineering Education, 50(4), 878–908', href: 'https://doi.org/10.1080/03043797.2024.2445277',
