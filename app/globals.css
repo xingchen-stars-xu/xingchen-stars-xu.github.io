@@ -58,7 +58,7 @@ a { color: inherit; text-decoration: none; }
 .button.primary:hover { background: var(--rust-dark); }
 .button.secondary { border: 1px solid var(--line); background: var(--white); }
 .button.text-button { color: var(--rust-dark); }
-.linkedin-mark { display: inline-grid; width: 16px; height: 16px; place-items: center; border-radius: 2px; background: currentColor; color: var(--white); font-size: 10px; font-weight: 800; line-height: 1; }
+.linkedin-icon { flex: 0 0 auto; color: #0a66c2; }
 
 .portrait-column { width: 100%; }
 .portrait-frame { position: relative; }
@@ -162,6 +162,7 @@ footer { border-top: 1px solid var(--line); }
 .footer-links { display: flex; gap: 10px; align-items: center; }
 .footer-links a { transition: color .2s ease; }
 .footer-links a:hover { color: var(--rust); }
+.footer-linkedin { display: inline-flex; align-items: center; gap: 5px; }
 
 /* Inner pages */
 .page-hero { position: relative; padding: 104px 0 72px; border-bottom: 1px solid var(--line); }

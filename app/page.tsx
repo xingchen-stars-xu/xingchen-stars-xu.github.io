@@ -9,6 +9,7 @@ import {
 import { SiteFooter } from '@/components/site-footer';
 import { SiteNav } from '@/components/site-nav';
 import { PublicationFilter } from '@/components/publication-filter';
+import { LinkedInIcon } from '@/components/linkedin-icon';
 
 const researchAreas = [
   {
@@ -91,7 +92,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <span aria-hidden="true" className="linkedin-mark">in</span> LinkedIn
+              <LinkedInIcon className="linkedin-icon" /> LinkedIn
             </a>
           </div>
         </div>
