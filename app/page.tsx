@@ -78,7 +78,7 @@ export default function Home() {
           <div className="hero-bio">
             <p>
               I completed my Ph.D. in Engineering Education Systems &amp; Design at Arizona State University under the guidance of{' '}
-              <a href="https://search.asu.edu/profile/4426391" target="_blank" rel="noreferrer">Dr. Li Tan</a>. My research brings together quantitative methods, AI-enabled learning, and engineering pathways. During my M.S. in Human Systems Engineering, I worked with ASU’s{' '}
+              <a href="https://search.asu.edu/profile/4426391" target="_blank" rel="noreferrer">Dr. Li Tan</a>. My research brings together quantitative methods, AI-enabled learning, and engineering pathways. During my concurrent M.S. in Human Systems Engineering, I worked with ASU’s{' '}
               <a href="https://learningengineering.asu.edu/" target="_blank" rel="noreferrer">Learning Engineering Institute</a> on interdisciplinary, evidence-based research and educational innovation.
             </p>
           </div>
