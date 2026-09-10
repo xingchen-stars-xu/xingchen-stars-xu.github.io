@@ -23,7 +23,7 @@ const publications: Publication[] = [
   {
     type: 'journal', year: '2026', status: 'Under revision',
     title: 'The Impact of Anti-DEI Policies on Undergraduate Engineering Enrollment by Gender and Race — A Difference-in-Differences Analysis',
-    authors: 'Yue Bian, Li Tan, Xingchen Xu & Brooke Coley',
+    authors: 'Yong Bian, Li Tan, Xingchen Xu & Brooke Coley',
     venue: '',
   },
   {

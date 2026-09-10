@@ -15,8 +15,8 @@ const researchAreas = [
   {
     number: '01',
     icon: BrainCircuit,
-    title: 'Quantitative Methods for Education',
-    text: 'Using rigorous quantitative approaches to understand educational systems and student experiences.',
+    title: 'Quantitative Methods for Engineering Education & the Social Sciences',
+    text: 'Applying rigorous quantitative approaches across engineering education and the broader social sciences.',
   },
   {
     number: '02',
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="journey-track">
               <div className="journey-stop">
                 <span />
-                <p><strong>2020–2022</strong>UC San Diego<small>B.S. Developmental Psychology</small></p>
+                <p><strong>2020–2022</strong>UC San Diego<small>B.S. Psychology</small></p>
               </div>
               <div className="journey-stop">
                 <span />
