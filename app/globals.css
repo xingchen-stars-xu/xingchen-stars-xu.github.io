@@ -136,6 +136,7 @@ a { color: inherit; text-decoration: none; }
 .review-service-columns ul { margin: 0; padding: 0; list-style: none; }
 .review-service-columns li { padding: 8px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 14px; line-height: 1.4; }
 .honors-band { background: var(--paper-deep); border-bottom: 1px solid var(--line); }
+.honors-band .simple-section-title h2 { max-width: none; white-space: nowrap; }
 .honors-simple-list { border-top: 1px solid var(--line); }
 .honor-simple-row { display: grid; grid-template-columns: 110px 1fr; gap: 26px; padding: 12px 2px; border-bottom: 1px solid var(--line); }
 .honor-simple-row > span { padding-top: 2px; color: var(--rust); font-size: 10px; font-weight: 750; letter-spacing: .05em; }
@@ -310,6 +311,7 @@ a.record-row:hover { padding-left: 12px; background: var(--white); }
   .review-journal-name { min-height: 120px; }
   .review-service-columns { grid-template-columns: 1fr; gap: 34px; }
   .review-service-columns article + article { padding: 34px 0 0; border-top: 1px solid var(--line); border-left: 0; }
+  .honors-band .simple-section-title h2 { white-space: normal; }
   .honor-simple-row { grid-template-columns: 82px 1fr; gap: 16px; }
   .year-overview { grid-template-columns: 1fr; }
   .year-card { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
