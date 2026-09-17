@@ -9,26 +9,27 @@ import {
 import { SiteFooter } from '@/components/site-footer';
 import { SiteNav } from '@/components/site-nav';
 import { PublicationFilter } from '@/components/publication-filter';
+import { GoogleScholarIcon } from '@/components/google-scholar-icon';
 import { LinkedInIcon } from '@/components/linkedin-icon';
 
 const researchAreas = [
   {
     number: '01',
     icon: BrainCircuit,
-    title: 'Quantitative Methods for Engineering Education & the Social Sciences',
-    text: 'Applying rigorous quantitative approaches across engineering education and the broader social sciences.',
+    title: 'Student Experiences and Engineering Pathways',
+    text: 'Using quantitative and machine-learning approaches alongside qualitative interviews to examine student experiences and group differences, spanning mental health, international students, and student–profession alignment.',
   },
   {
     number: '02',
     icon: Sparkles,
-    title: 'AI-enabled Learning in Engineering Education',
-    text: 'Exploring how AI can support responsible, meaningful learning in engineering education.',
+    title: 'AI in Engineering Education',
+    text: 'Examining how engineering students use and evaluate AI, particularly when and why they over-rely on AI-generated outputs and how educational interventions can support critical evaluation and professional judgment.',
   },
   {
     number: '03',
     icon: GraduationCap,
-    title: 'Engineering Pathways',
-    text: 'Helping engineering students prepare for and successfully transition into the engineering professions.',
+    title: 'Engineering Communication',
+    text: 'This line of research examines how language, writing, and cultural backgrounds shape communication and participation in engineering education, with growing attention to how AI is changing the ways students communicate and demonstrate their knowledge.',
   },
 ];
 
@@ -73,13 +74,13 @@ export default function Home() {
           <span>✦</span><span>✦</span><span>✦</span><span>✦</span><span>✦</span>
         </div>
         <div className="hero-copy" id="about">
-          <h1>Xingchen <em>(Stars)</em> Xu</h1>
+          <h1>Xingchen <span>(Stars)</span> Xu</h1>
           <p className="name-note">Xingchen means “stars” in English—so I go by Stars.</p>
           <div className="hero-bio">
             <p>
               I completed my Ph.D. in Engineering Education Systems &amp; Design at Arizona State University under the guidance of{' '}
-              <a href="https://search.asu.edu/profile/4426391" target="_blank" rel="noreferrer">Dr. Li Tan</a>. My research brings together quantitative methods, AI-enabled learning, and engineering pathways. During my concurrent M.S. in Human Systems Engineering, I worked with ASU’s{' '}
-              <a href="https://learningengineering.asu.edu/" target="_blank" rel="noreferrer">Learning Engineering Institute</a> on interdisciplinary, evidence-based research and educational innovation.
+              <a href="https://search.asu.edu/profile/4426391" target="_blank" rel="noreferrer">Dr. Li Tan</a>. My interdisciplinary training spans psychology, human-centered engineering, and engineering education: I earned my B.S. in Psychology from UC San Diego and completed an M.S. in Human Systems Engineering at ASU while pursuing my Ph.D. I also worked with ASU’s{' '}
+              <a href="https://learningengineering.asu.edu/" target="_blank" rel="noreferrer">Learning Engineering Institute</a> on evidence-based research and educational innovation. My research integrates quantitative methods, AI-enabled learning, and engineering pathways to understand how students learn, make decisions, and transition into engineering practice.
             </p>
           </div>
           <div className="hero-actions">
@@ -93,6 +94,14 @@ export default function Home() {
               rel="noreferrer"
             >
               <LinkedInIcon className="linkedin-icon" /> LinkedIn
+            </a>
+            <a
+              className="button secondary"
+              href="https://scholar.google.com/citations?user=phwPotgAAAAJ&hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GoogleScholarIcon className="scholar-icon" /> Google Scholar
             </a>
           </div>
         </div>
@@ -134,14 +143,11 @@ export default function Home() {
       </section>
 
       <section className="section-shell section-block" id="research">
-        <div className="section-heading">
+        <div className="section-heading research-heading">
           <div>
             <p className="kicker">Research agenda</p>
             <h2>Three areas of inquiry.</h2>
           </div>
-          <p>
-            Three broad areas connect my work across engineering education.
-          </p>
         </div>
         <div className="research-grid">
           {researchAreas.map((area) => {
